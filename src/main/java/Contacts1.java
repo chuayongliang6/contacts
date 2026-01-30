@@ -11,7 +11,7 @@ public class Contacts1 {
     /**
      * Version info of the program.
      */
-    private static final String VERSION = "Contacts - Version 1.0";
+    private static final String VERSION = "Contacts - Version 0.0";
 
     /**
      * A decorative prefix added to the beginning of lines printed by AddressBook
@@ -151,6 +151,10 @@ public class Contacts1 {
      * ====================================================================
      */
 
+    /**
+     *Shows the welcome message to the user
+     * /
+     */
     private static void showWelcomeMessage() {
         showToUser(DIVIDER, DIVIDER, VERSION, MESSAGE_WELCOME, DIVIDER);
     }
